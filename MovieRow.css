@@ -1,0 +1,37 @@
+.row {
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+}
+.row-title {
+  font-size: 1.5rem;
+}
+.movie_cards {
+  display: flex;
+  padding: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.movie-name {
+  font-size: 1.2rem;
+}
+
+.movie_cards::-webkit-scrollbar {
+  display: none;
+}
+.movie_card {
+  cursor: pointer;
+  max-height: 250px;
+  margin-right: 10px;
+}
+.movie_card:hover {
+  transform: scale(1.1);
+}
+.subField {
+  cursor: pointer;
+  max-height: 150px;
+  margin-right: 10px;
+}
+.subField:hover {
+  transform: scale(1.3);
+}
